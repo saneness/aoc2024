@@ -4,10 +4,7 @@ puzzle = Puzzle(year=2024, day=2)
 data   = [[int(subitem) for subitem in item.split()] for item in puzzle.input_data.split("\n")]
 
 def check(item):
-    if (sorted(item)==item or sorted(item)[::-1]==item) and sorted(list(set(item)))==sorted(item) and max([abs(next-current) for current, next in zip(item[:-1], item[1:])]) <= 3:
-        return 1
-    else:
-        return 0
+    return (sorted(item)==item or sorted(item)[::-1]==item) and sorted(list(set(item)))==sorted(item) and max([abs(next-current) for current, next in zip(item[:-1], item[1:])]) <= 3
 
 answer_a = 0
 answer_b = 0
