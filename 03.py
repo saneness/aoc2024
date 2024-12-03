@@ -11,7 +11,7 @@ answer_b = 0
 
 do = True
 for item in re.findall(rx, data):
-    if item[2] != "":
+    if item[2] == "":
         answer_a += int(item[0])*int(item[1])
         answer_b += int(item[0])*int(item[1]) if do else 0
     else:
