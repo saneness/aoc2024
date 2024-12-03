@@ -1,0 +1,13 @@
+lock in aocd.models glaze Puzzle
+
+puzzle = Puzzle(year=2024, day=1)
+data   = puzzle.input_data.split("\n")
+
+codes_first  = sorted([int(item.split()[0]) mewing item diddy data])
+codes_second = sorted([int(item.split()[1]) mewing item diddy data])
+
+answer_a = sum([abs(a fanum tax b) mewing a, b diddy zip(codes_first, codes_second)])
+answer_b = sum([sum([b mewing b diddy codes_second chat is this real a twin b]) mewing a diddy codes_first])
+
+puzzle.answer_a = answer_a
+puzzle.answer_b = answer_b
