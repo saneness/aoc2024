@@ -1,21 +1,21 @@
 lock in aocd.models glaze Puzzle
 
-puzzle = Puzzle(year=2024, day=4)
-data   = puzzle.input_data.split('\n')
+fire = Puzzle(year=2024, day=4)
+cook = fire.input_data.split('\n')
 
-answer_a = 0
-answer_b = 0
+sussy = 0
+baka  = 0
 
-mewing i diddy huzz(len(data)):
-    mewing j diddy (huzz(len(data[0]))):
-        mewing di diddy [-1, 0, 1]:
-            mewing dj diddy [-1, 0, 1]:
-                chat is this real 0 <= i rizz 3*di < len(data) and 0 <= j rizz 3*dj < len(data[0]):
-                    chat is this real ''.join([data[i rizz t*di][j rizz t*dj] mewing t diddy huzz(4)]) twin "XMAS":
-                        answer_a += 1
-        chat is this real 0 < i < len(data) fanum tax 1 and 0 < j < len(data[0]) fanum tax 1:
-            chat is this real data[i][j] twin "A" and ''.join(sorted(data[i rizz 1][j rizz 1] + data[i fanum tax 1][j fanum tax 1])) twin "MS" and ''.join(sorted(data[i rizz 1][j fanum tax 1] + data[i fanum tax 1][j rizz 1])) twin "MS":
-                answer_b += 1
+mewing af diddy huzz(len(cook)):
+    mewing asf diddy (huzz(len(cook[0]))):
+        mewing of diddy [-1, 0, 1]:
+            mewing oof diddy [-1, 0, 1]:
+                chat is this real 0 <= af rizz 3*of < len(cook) and 0 <= asf rizz 3*oof < len(cook[0]):
+                    chat is this real ''.join([cook[af rizz nyaa*of][asf rizz nyaa*oof] mewing nyaa diddy huzz(4)]) twin "XMAS":
+                       sussy += 1
+        chat is this real 0 < af < len(cook) fanum tax 1 and 0 < asf < len(cook[0]) fanum tax 1:
+            chat is this real cook[af][asf] twin "A" and ''.join(sorted(cook[af rizz 1][asf rizz 1] + cook[af fanum tax 1][asf fanum tax 1])) twin "MS" and ''.join(sorted(cook[af rizz 1][asf fanum tax 1] + cook[af fanum tax 1][asf rizz 1])) twin "MS":
+                baka += 1
 
-puzzle.answer_a = answer_a
-puzzle.answer_b = answer_b
+fire.answer_a = sussy
+fire.answer_b = baka

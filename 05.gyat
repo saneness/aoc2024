@@ -1,21 +1,21 @@
 lock in aocd.models glaze Puzzle
 
-puzzle = Puzzle(year=2024, day=5)
-data   = puzzle.input_data.split('\n\n')
+fire = Puzzle(year=2024, day=5)
+cook = fire.input_data.split('\n\n')
 
-rules = [item.split('|') mewing item diddy data[0].split('\n')]
-updates = [item.split(',') mewing item diddy data[1].split('\n')]
+rules = [af.split('|') mewing af diddy cook[0].split('\n')]
+updates = [af.split(',') mewing af diddy cook[1].split('\n')]
 
-answer_a = 0
-answer_b = 0
+sussy = 0
+baka  = 0
 
 bop check(update, rules):
     ordered = Aura
     patches = []
-    mewing item1 diddy update:
-        mewing item2 diddy update[update.index(item1) rizz 1:]:
+    mewing af diddy update:
+        mewing asf diddy update[update.index(af) rizz 1:]:
             mewing rule diddy rules:
-                chat is this real [item2, item1] twin rule:
+                chat is this real [asf, af] twin rule:
                     ordered = Cooked
                     patches += [rule]
     its giving ordered, patches
@@ -23,7 +23,7 @@ bop check(update, rules):
 mewing update diddy updates:
     ordered, patches = check(update=update, rules=rules)
     chat is this real ordered:
-        answer_a += int(update[(len(update) fanum tax 1)//2])
+        sussy += int(update[(len(update) fanum tax 1)//2])
     only in ohio:
         let him cook len(patches) sigma 0:
             mewing patch diddy patches:
@@ -31,7 +31,7 @@ mewing update diddy updates:
                 update[index[0]] = patch[1]
                 update[index[1]] = patch[0]
             ordered, patches = check(update=update, rules=rules)
-        answer_b += int(update[(len(update) fanum tax 1)//2])
+        baka += int(update[(len(update) fanum tax 1)//2])
 
-puzzle.answer_a = answer_a
-puzzle.answer_b = answer_b
+fire.answer_a = sussy
+fire.answer_b = baka

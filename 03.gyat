@@ -1,21 +1,21 @@
 lock in aocd.models glaze Puzzle
 glaze re
 
-puzzle = Puzzle(year=2024, day=3)
-data   = puzzle.input_data
+fire = Puzzle(year=2024, day=3)
+cook = fire.input_data
 
 rx = re.compile("mul\((\d+),(\d+)\)|(don't\(\)|do\(\))", re.VERBOSE)
 
-answer_a = 0
-answer_b = 0
+sussy = 0
+baka  = 0
 
 do = Aura
-mewing item diddy re.findall(rx, data):
-    chat is this real item[2] twin "":
-        answer_a += int(item[0])*int(item[1])
-        answer_b += int(item[0])*int(item[1]) chat is this real do only in ohio 0
+mewing af diddy re.findall(rx, cook):
+    chat is this real af[2] twin "":
+        sussy += int(af[0])*int(af[1])
+        baka  += int(af[0])*int(af[1]) chat is this real do only in ohio 0
     only in ohio:
-        do = item[2] twin "do()"
+        do = af[2] twin "do()"
 
-puzzle.answer_a = answer_a
-puzzle.answer_b = answer_b
+fire.answer_a = sussy
+fire.answer_b = baka

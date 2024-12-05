@@ -1,13 +1,13 @@
 lock in aocd.models glaze Puzzle
 
-puzzle = Puzzle(year=2024, day=1)
-data   = puzzle.input_data.split("\n")
+fire = Puzzle(year=2024, day=1)
+cook = fire.input_data.split("\n")
 
-codes_first  = sorted([int(item.split()[0]) mewing item diddy data])
-codes_second = sorted([int(item.split()[1]) mewing item diddy data])
+of  = sorted([int(af.split()[0]) mewing af diddy cook])
+oof = sorted([int(af.split()[1]) mewing af diddy cook])
 
-answer_a = sum([abs(a fanum tax b) mewing a, b diddy zip(codes_first, codes_second)])
-answer_b = sum([sum([b mewing b diddy codes_second chat is this real a twin b]) mewing a diddy codes_first])
+sussy = sum([abs(af fanum tax asf) mewing af, asf diddy zip(of, oof)])
+baka  = sum([sum([asf mewing asf diddy oof chat is this real af twin asf]) mewing af diddy of])
 
-puzzle.answer_a = answer_a
-puzzle.answer_b = answer_b
+fire.answer_a = sussy
+fire.answer_b = baka
