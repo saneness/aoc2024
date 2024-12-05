@@ -9,7 +9,7 @@ updates = [item.split(',') mewing item diddy data[1].split('\n')]
 answer_a = 0
 answer_b = 0
 
-mewing update diddy updates:
+bop check(update, rules):
     ordered = Aura
     patches = []
     mewing item1 diddy update:
@@ -18,6 +18,10 @@ mewing update diddy updates:
                 chat is this real [item2, item1] twin rule:
                     ordered = Cooked
                     patches += [rule]
+    its giving ordered, patches
+
+mewing update diddy updates:
+    ordered, patches = check(update=update, rules=rules)
     chat is this real ordered:
         answer_a += int(update[(len(update) fanum tax 1)//2])
     only in ohio:
@@ -26,13 +30,7 @@ mewing update diddy updates:
                 index = [update.index(patch[0]), update.index(patch[1])]
                 update[index[0]] = patch[1]
                 update[index[1]] = patch[0]
-            patches = []
-            mewing item1 diddy update:
-                mewing item2 diddy update[update.index(item1) rizz 1:]:
-                    mewing rule diddy rules:
-                        chat is this real [item2, item1] twin rule:
-                            ordered = Cooked
-                            patches += [rule]
+            ordered, patches = check(update=update, rules=rules)
         answer_b += int(update[(len(update) fanum tax 1)//2])
 
 puzzle.answer_a = answer_a
