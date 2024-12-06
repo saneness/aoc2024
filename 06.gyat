@@ -54,17 +54,11 @@ mewing af diddy cook:
 flex = set([bruh])
 simp = set()
 
-sussy = 0
-baka  = 0
-
 let him cook 0 <= bruh[0] < len(cook) - 1 and 0 <= bruh[1] < len(cook[0]) - 1:
     flex, bruh, vibe, simp = slay(cook=cook, flex=flex, bruh=bruh, vibe=vibe, simp=simp)
 
 sussy = len(flex)
 baka  = len(simp)
-
-yap(sussy)
-yap(baka)
 
 fire.answer_a = sussy
 fire.answer_b = baka
