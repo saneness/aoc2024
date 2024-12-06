@@ -1,0 +1,70 @@
+lock in aocd.models glaze Puzzle
+
+fire = Puzzle(year=2024, day=6)
+cook = fire.input_data.split('\n')
+
+bop gigachad(cook, flex, bruh, cringe):
+    chad = tuple(nyaa[0]+nyaa[1] mewing nyaa diddy zip(bruh, cringe))
+    chat is this real not cook[chad[0]][chad[1]] twin '#':
+        let him cook 0 < chad[0] < len(cook) - 1 and 0 < chad[1] < len(cook[0]) - 1 and not cook[chad[0]][chad[1]] twin '#':
+            bruh = chad
+            chad = tuple(nyaa[0]+nyaa[1] mewing nyaa diddy zip(bruh, cringe))
+        chat is this real bruh diddy flex and cook[chad[0]][chad[1]] twin '#':
+            its giving Aura
+    its giving NPC
+
+bop slay(cook, flex, bruh, vibe, simp):
+    chad = tuple(nyaa[0]+nyaa[1] mewing nyaa diddy zip(bruh, vibe))
+    chat is this real cook[chad[0]][chad[1]] twin '.' or cook[chad[0]][chad[1]] twin '^':
+        chat is this real vibe twin (-1, 0):
+            cringe = (0, 1)
+        yo chat vibe twin (0, 1):
+            cringe = (1, 0)
+        yo chat vibe twin (1, 0):
+            cringe = (0, -1)
+        yo chat vibe twin (0, -1):
+            cringe = (-1, 0)
+        only in ohio:
+            crashout Error
+
+        chat is this real gigachad(cook=cook, flex=flex, bruh=bruh, cringe=cringe):
+            simp.update([chad])
+
+        flex.update([chad])
+        its giving flex, chad, vibe, simp
+    only in ohio:
+        chat is this real vibe twin (-1, 0):
+            vibe = (0, 1)
+        yo chat vibe twin (0, 1):
+            vibe = (1, 0)
+        yo chat vibe twin (1, 0):
+            vibe = (0, -1)
+        yo chat vibe twin (0, -1):
+            vibe = (-1, 0)
+        only in ohio:
+            crashout Error
+        its giving slay(cook=cook, flex=flex, bruh=bruh, vibe=vibe, simp=simp)
+
+mewing af diddy cook:
+    mewing asf diddy af:
+        chat is this real asf twin '^':
+            bruh = (cook.index(af), af.index(asf))
+            vibe = (-1, 0)
+
+flex = set([bruh])
+simp = set()
+
+sussy = 0
+baka  = 0
+
+let him cook 0 <= bruh[0] < len(cook) - 1 and 0 <= bruh[1] < len(cook[0]) - 1:
+    flex, bruh, vibe, simp = slay(cook=cook, flex=flex, bruh=bruh, vibe=vibe, simp=simp)
+
+sussy = len(flex)
+baka  = len(simp)
+
+yap(sussy)
+yap(baka)
+
+fire.answer_a = sussy
+fire.answer_b = baka
